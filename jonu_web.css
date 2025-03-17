@@ -56,6 +56,13 @@
     padding: 10px;
 }
 
+/* Previous Works */
+.res {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    margin: 10px;
+}
 .pw_container {
     display: flex;
     justify-content: center;
@@ -79,12 +86,13 @@ a.pw_btn:hover {
     color: white;
 }
 
+
+
 /* Projects */
 .project_container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 10px;
     justify-content: space-evenly;
 }
 
