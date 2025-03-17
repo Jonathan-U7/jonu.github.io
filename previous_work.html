@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Previous Work</title>
-    <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="jonu_web.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,18 +15,18 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="background_color">
     <header>Previous Work</header>
     <main>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-            <h1>Portfolio</h1>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <h1>Previous Work</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collaspe" data-bs-target="#options" aria-controls="options" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="options">
-              <ul class="options">
+            <div class="collapse navbar-collapse">
+              <ul class="list-container">
                 <a href="jonu_web_portfolio.html">Home</a>
-                <a href="about.html">About</a>
+                <a href="about.html">About Me</a>
                 <a href="previous_work.html">Previous Work</a>
                 <a href="projects.html">Projects</a>
                 <a href="contact_form.html">Contact Form</a>
@@ -35,13 +34,13 @@
             </div>
         </nav>
         <!-- Include a preview of my resume (pdf), link to download resume and link to LinkedIn -->
-        <section>
-            <h2>Resume</h2>
-            <iframe src="media/jonu_resume.pdf" width="100%" height="600px"></iframe>
-            <p>Click the link below to view or download my resume:</p>
-            <a href="media/jonu_resume.pdf" target="_blank">Download Resume</a>
-            <p>Connect with me on LinkedIn:</p>
-            <a href="https://www.linkedin.com/in/jonathan-u-b11006258/" target="_blank">LinkedIn Profile</a>
+        <section class="pw_container">
+            <embed src="media/jonu_resume.pdf" width="80%" height="600px" type="application/pdf">
+              <div class="button_container mt-3">
+                <a href="media/jonu_resume.pdf" target="_blank" class="btn btn-primary pw_btn bg-dark">Download Resume</a>
+                <a href="https://www.linkedin.com/in/jonathan-u-b11006258/" target="_blank" class="btn btn-primary pw_btn bg-dark">Connect with me on LinkedIn</a>
+              </div>
+        </section>
     </main>
   </body>
 </html>

@@ -1,0 +1,82 @@
+.background_color {
+    background-color: grey;
+    margin: 0;
+    height: 100vh;
+}
+/* Home Page */
+/* Top-left text region - typically 1-2 words */
+.navbar {
+    display: block;
+    color: white;
+    height: 100px;
+}
+
+/* Text on navbar */
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.navbar a:hover {
+    color: grey;
+}
+
+
+/* About */
+.carousel_container {
+    display: inline-block;
+}
+.carousel-item {
+    margin: 20px auto;
+}
+
+.carousel-item img {
+    border-radius: 50px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.bio_container {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid white;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Previous Work */
+/* .pw_container {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: purple;
+} */
+.pw_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+embed {
+    width:80%;
+    height: 80vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+a.pw_btn {
+    color: white;
+    border-color: white;
+}
+a.pw_btn:hover {
+    background-color: grey;
+    border-color: black;
+    color: white;
+}

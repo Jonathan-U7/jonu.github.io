@@ -90,3 +90,38 @@ Log:
         file will act as reference to the styles of the navbar; once 
         those edits have been finished, the updated html and css will 
         be placed after that finalized revision
+- Session 4:
+    - Tackling the image carousel:
+    - Further research of the carousel, and it is managed by a carousel
+        class in bootstrap.
+    - All desired photos were selected, and carousel works
+    - Styles of each image will be dealt with later on
+- Session 5:
+    - Previous Work:
+        - Link to LinkedIN: Works
+        - Download Resume Link: Works?
+        - A preview of my resume
+            - Preview must be fixed / adjusted
+- Session 6: 
+    - Projects:
+        - Each project will be place within a card
+        - Each card contains a title, description of project, and a link to said project
+        - I want to create visual aspect to it, but unsure what to make visual
+    - Links have been implemented: will continue to styling at a
+        later point
+- Session 7: 
+    - Styling of page:
+        - Webpage color
+        - Image Carousel container (B/W)
+        - Bio container
+        - Navbar styling
+    - Asked chatgpt about color paletes: 
+        - Decided on white, black, grey, offwhite to use
+        - Heavily gravitated towards offwhite
+        - Wasn't satisfied with a palete that included offwhite
+            - Seemed that there was too much contrast/conflicting 
+                colors
+            - Ended up with charcoal nav, grey backround, 
+                charcoal elements w/ white text
+    - Styling for Previous Work is completed - will be the new 
+        standard for all of the pages
