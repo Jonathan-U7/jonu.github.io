@@ -15,16 +15,16 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="background_color">
     <header>Projects</header>
     <main>
-        <nav class="navbar navbar-expand-md navbar-light bg-light mb-4">
-            <h1>Portfolio</h1>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+            <h1>Projects</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collaspe" data-bs-target="#options" aria-controls="options" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="options">
-              <ul class="options">
+            <div class="collapse navbar-collapse">
+              <ul class="list_container">
                 <a href="jonu_web_portfolio.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="previous_work.html">Previous Work</a>
@@ -33,17 +33,39 @@
               </ul>
             </div>
         </nav>
-        <div class="project_container">
-          <div class="project">
-            <a href="https://github.com/Jonathan-U7/CS358_term_project" target="_blank">Interpreter</a>
-          </div>
-          <div class="project">
-            <a href="https://github.com/Jonathan-U7/jonu.github.io" target="_blank">Coding Portfolio</a>
-          </div>
-          <div class="project">
-            <a href="https://gitlab.cecs.pdx.edu/seanmc/group-2-chocan-fall-2024" target="_blank">Data Base Software</a>
-          </div>
-        </div>
+        <section class="project_container">
+          <section class="button_container button_container mt-3">
+            <div class="project">
+              <h2>Interpreter Project</h2>
+              <p>
+                With a users input, this software emulates an interpreter, 
+                supporting the notion of interpreting, parsing and the 
+                creation of abstract syntax trees. Contains a photo centric 
+                domain.
+              </p>
+              <a href="https://github.com/Jonathan-U7/CS358_term_project" target="_blank" class="btn btn-primary bg-dark p_btn">Access Interpreter Here</a>
+            </div>
+            <div class="project">
+              <h2>Coding Portfolio</h2>
+              <p>
+                This portfolio contains the professional of Jonathan U; 
+                consisting personal background, projects and experience,
+                this live document acts as a middle man for Jonathan's 
+                professional persona.
+              </p>
+              <a href="https://github.com/Jonathan-U7/jonu.github.io" target="_blank" class="btn btn-primary bg-dark p_btn">Access Coding Portfolio Here</a>
+            </div>
+            <div class="project">
+              <h2>DataBase Software</h2>
+              <p class="color-white">
+                Software manages database for medical institude ChocAn.
+                Delves into the realms of databases, beginner UI, as well
+                as data management.
+              </p>
+              <a href="https://gitlab.cecs.pdx.edu/seanmc/group-2-chocan-fall-2024" target="_blank" class="btn btn-primary bg-dark p_btn">Access Data Base Software Here</a>
+            </div>
+          </section>
+        </section>
     </main>
   </body>
 </html>

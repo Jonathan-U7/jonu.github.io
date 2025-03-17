@@ -15,10 +15,10 @@
         crossorigin="anonymous"
         ></script>
     </head>
-    <body>
+    <body class="background_color">
         <header>About Me</header>
         <main>
-            <nav class="navbar navbar-expand-md navbar-white bg-white">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                 <h1>About Me</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collaspe" data-bs-target="#options" aria-controls="options" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -33,46 +33,47 @@
                   </ul>
                 </div>
             </nav>
-            <!-- Image Carousel - use media queries to dictate 1 || 2 carousels -->
-            <div id="image_carousel" class="carousel slide carousel_container" data-bs-ride="carousel" data-bs-interval="3000">
-                <div class="carousel_inner">
-                    <div class="carousel-item active">
-                        <img src="media/IMG_3174.jpeg" class="d-block" alt="Jonathan U Air Space Museum" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="media/IMG_0739.jpeg" class="d-block" alt="Jonathan U Disc Golf 1" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="media/IMG_2774.jpeg" class="d-block" alt="Jonathan U Mirror" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="media/093cc047-08de-415a-b064-d408259afa8d.jpg" class="d-block w-100" alt="Jonathan U Rubik's Cube" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="media/IMG_0740.jpeg" class="d-block" alt="Jonathan U Disc Golf 2" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="media/bathroom.jpg" class="d-block" alt="Jonathan U Bathroom" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="media/IMG_4847.jpeg" class="d-block" alt="Jonathan U Graduation" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="media/IMG_4773.jpeg" class="d-block" alt="Jonathan U Prom" />
+            <section class="a_container">
+                <div id="image_carousel" class="carousel slide carousel_container" data-bs-ride="carousel" data-bs-interval="3000">
+                    <div class="carousel_inner">
+                        <div class="carousel-item active">
+                            <img src="media/IMG_3174.jpeg" class="d-block" alt="Jonathan U Air Space Museum" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media/IMG_0739.jpeg" class="d-block" alt="Jonathan U Disc Golf 1" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media/IMG_2774.jpeg" class="d-block" alt="Jonathan U Mirror" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media/093cc047-08de-415a-b064-d408259afa8d.jpg" class="d-block w-100" alt="Jonathan U Rubik's Cube" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media/IMG_0740.jpeg" class="d-block" alt="Jonathan U Disc Golf 2" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media/bathroom.jpg" class="d-block" alt="Jonathan U Bathroom" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media/IMG_4847.jpeg" class="d-block" alt="Jonathan U Graduation" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media/IMG_4773.jpeg" class="d-block" alt="Jonathan U Prom" />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="bio_container d-block">
-                <p class="bio">
-                    Hello! My name is Jonathan U. I was born and raised in Beaverton Oregon. Growing up, I was kept 
-                    occupied by school and basketball. I graduated from Southridge High School in 2021.
-                    I am currently a 4th year student at Portland State University, where I am pursuing a degree in Computer Science.
-                    My current hobbies consist of basketball, disc golf and the gym. My work experience is rather
-                    limited, but I have been working within Portland State's OIT department over the course of the 
-                    past year, making contributions in audio/visual support of classrooms, as well as technological 
-                    support for staff and faculty. 
-                </p>
-            </div>
+                <div class="bio_container d-block bg-dark">
+                    <p class="bio">
+                        Hello! My name is Jonathan U. I was born and raised in Beaverton Oregon. Growing up, I was kept 
+                        occupied by school and basketball. I graduated from Southridge High School in 2021.
+                        I am currently a 4th year student at Portland State University, where I am pursuing a degree in Computer Science.
+                        My current hobbies consist of basketball, disc golf and the gym. My work experience is rather
+                        limited, but I have been working within Portland State's OIT department over the course of the 
+                        past year, making contributions in audio/visual support of classrooms, as well as technological 
+                        support for staff and faculty. 
+                    </p>
+                </div>
+            </section>
         </main>
     </body>
 </html>
