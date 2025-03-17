@@ -125,3 +125,25 @@ Log:
                 charcoal elements w/ white text
     - Styling for Previous Work is completed - will be the new 
         standard for all of the pages
+- Session 8: 
+    - Got all of the other pages on the same standard
+    - Relearned flexbox 
+    - Emphasize the commenting on the css
+- Session 9: 
+    - Left to do:
+        [] Contact Form:
+            - With working js
+        [] Decide on what to do for home page (shorter bio?)
+        [] Replace embed resume with pdf (in order to fix accessibility)
+            - In terms of functionality, I do like the idea of embedding,
+                considering it goes against accessibility, I'll
+                have to potentially reconsider
+        [] Have all projects fit in accordance to page:
+            - Shrinking page = more rows over more columns 
+        [] Shrinking page allows buttons to still work 
+        [] Push all navbar text to the right side of page
+        [] Develop a script for video
+        [] Rewrite jounal on pdf
+        [] Rewrite readMe as instruction manual
+        [] Get rid of all potential errors / contrast issues
+        [] Imbed the html file contents as a "preview" for prevoius projects 

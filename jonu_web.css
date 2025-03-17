@@ -29,6 +29,7 @@
     align-items: center;
     height: 100vh;
     flex-direction: column; 
+    margin:100px;
 }
 .carousel_container {
     display: inline-block;
@@ -112,4 +113,37 @@ a.p_btn {
 
 a.p_btn:hover {
     border:#212529;
+}
+
+/* Form */
+.form_container {
+    color: white;
+    background-color: #212529;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    justify-content: center;
+    border-radius: 5px;
+}
+form {
+    align-items: center;
+    width:95%
+}
+
+/* Contact Form */
+form 
+.btn{
+    color: white;
+    border-color: white;
+    background-color: #212529;
+}
+
+form 
+.btn:hover {
+    border-color: white;
+    background-color: white;
+    color: black;
 }
