@@ -1,6 +1,10 @@
 # jonu.github.io
 Final Project for WEB-DEV (CS463)
 ------------- Anything below the line are instructions from the assignment ------------
+- Instructions:
+    - 
+
+
 Assignment contents: 
     - Navbar
         - About Section
@@ -131,8 +135,10 @@ Log:
     - Emphasize the commenting on the css
 - Session 9: 
     - Left to do:
-        [] Contact Form:
+        [x] Contact Form:
             - With working js
+            - Forgot about form id set to link into js
+            needed to link js into html 
         [] Decide on what to do for home page (shorter bio?)
         [] Replace embed resume with pdf (in order to fix accessibility)
             - In terms of functionality, I do like the idea of embedding,
@@ -145,5 +151,6 @@ Log:
         [] Develop a script for video
         [] Rewrite jounal on pdf
         [] Rewrite readMe as instruction manual
-        [] Get rid of all potential errors / contrast issues
+        [x] Get rid of all potential errors / contrast issues
+            - Resolved via aria-label: allows the header to be empty
         [] Imbed the html file contents as a "preview" for prevoius projects 
