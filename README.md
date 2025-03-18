@@ -140,17 +140,25 @@ Log:
             - Forgot about form id set to link into js
             needed to link js into html 
         [] Decide on what to do for home page (shorter bio?)
-        [] Replace embed resume with pdf (in order to fix accessibility)
+        [x] Replace embed resume with pdf (in order to fix accessibility)
             - In terms of functionality, I do like the idea of embedding,
                 considering it goes against accessibility, I'll
                 have to potentially reconsider
+            - Had the embed link from docs within to be placed as an element
         [] Have all projects fit in accordance to page:
             - Shrinking page = more rows over more columns 
-        [] Shrinking page allows buttons to still work 
-        [] Push all navbar text to the right side of page
-        [] Develop a script for video
+        [x] Shrinking page allows buttons to still work 
+            - mispelt collapse
+        [x] Push all navbar text to the right side of page
+        [x] Develop a script for video
         [] Rewrite jounal on pdf
         [] Rewrite readMe as instruction manual
         [x] Get rid of all potential errors / contrast issues
             - Resolved via aria-label: allows the header to be empty
         [] Imbed the html file contents as a "preview" for prevoius projects 
+        [] Add icons of the following 
+            - Github
+            - LinkedIn
+        [] Apply new styles to the rest of the files: 
+            [] navbar to the right
+            [] Buttons work with smaller window

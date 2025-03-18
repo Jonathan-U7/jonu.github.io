@@ -18,27 +18,34 @@
   <body class="background_color">
     <header aria-label="Site Header"></header>
     <main>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-            <h1>Portfolio</h1>
-            <!-- each file has respective top left text -->
-            <button class="navbar-toggler" type="button" data-toggle="collaspe" data-target="#dropdown" aria-controls="dropdown" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse ml-2" id="dropdown">
-              <ul class="list_container navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="jonu_web_portfolio.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="previous_work.html">Previous Work</a></li>
-                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact_form.html">Contact Form</a></li>
-                
-                  <!-- <a href="about.html">About Me</a>
-                  <a href="previous_work.html">Previous Work</a>
-                  <a href="projects.html">Projects</a>
-                  <a href="contact_form.html">Contact Form</a> -->
-              </ul>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <h1 class="mx-4">Home Page</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="dropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="dropdown">
+          <ul class="list_container ms-auto">
+            <a href="jonu_web_portfolio.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="previous_work.html">Previous Work</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact_form.html">Contact Form</a>
+          </ul>
+        </div>
+    </nav>
+        <section class="home_page_container">
+          <div class="intro_photo">
+            <img src="media/IMG_0476.jpeg" class="d-block" alt="Jonathan U Snow" />
+          </div>
+          <div class="intro_text">
+            Welcome to my portfolio! My name is Jonathan U, and I welcome you 
+            to my final project / professional portfolio for CS463 - 
+            Introduciton to Web Development. The purpose of this site is to 
+            exemplify and exercise the skills that I have learned throughout 
+            this course of this term. I hope you enjoy this experience as much 
+            as I have enjoyed creating it. Enjoy!
+          </div>
+        </section>
     </main>
   </body>
 </html>
