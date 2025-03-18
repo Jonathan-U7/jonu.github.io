@@ -1,9 +1,11 @@
+/* Styles to take place throughout site */
+/* Site Background Color */
 .background_color {
     background-color: grey;
     margin: 0;
     height: 100vh;
 }
-/* Home Page */
+
 /* Top-left text region - typically 1-2 words */
 .navbar {
     display: block;
@@ -12,15 +14,21 @@
 }
 
 /* Text on Navbar - Options on Navbar */
-.navbar a {
+.navbar 
+a {
     text-decoration: none;
     color: white;
     margin: 10px;
 }
-.navbar a:hover {
+
+/* Navbar hover */
+.navbar 
+a:hover {
     color: grey;
 }
 
+/* Home Page */
+/* Container holding image && intro text */
 .home_page_container {
     display: flex;
     justify-content: space-evenly;
@@ -28,18 +36,25 @@
     padding: 20px;
     height: 100vh;
 }
+
+/* Container holding img */
 .intro_photo {
     display: flex;
     flex: 1;
     padding-right: 20px;
     justify-content: center;
 }
-.intro_photo img {
+
+/* Image itself */
+.intro_photo 
+img {
     max-width: 95%;
     max-height: 90vh;
     border-radius: 50px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
 }
+
+/* Container of text */
 .intro_text {
     display: flex;
     padding-left: 20px;
@@ -55,6 +70,7 @@
 
 
 /* About */
+/* Container holding carousel && bio */
 .a_container {
     display: flex;
     justify-content: center;
@@ -63,14 +79,20 @@
     flex-direction: column; 
     margin: 10px;
 }
+
+/* Carousel Container */
 .carousel_container {
     display: inline-block;
 }
+
+/* Single object within a carousel */
 .carousel-item {
     margin: 20px auto;
 }
 
-.carousel-item img {
+/* Image within single object */
+.carousel-item 
+img {
     border-radius: 50px;
     width: 400px;
     height: 500px;
@@ -78,6 +100,7 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
 }
 
+/* Bio text container */
 .bio_container {
     width: 80%;
     margin: 20px auto;
@@ -91,6 +114,7 @@
 }
 
 /* Previous Works */
+/* Resume */
 .res {
     display: flex;
     min-width: 60%;
@@ -98,6 +122,8 @@
     margin: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
 }
+
+/* Container holding resume and buttons */
 .pw_container {
     display: flex;
     justify-content: center;
@@ -106,31 +132,29 @@
     flex-direction: column;
     padding: 10px;
 }
-embed {
-    width:80%;
-    height: 80vh;
-    border: 2px solid black;
-    border-radius: 10px;
-}
+
+/* Controls button styles */
 a.pw_btn {
     color: white;
     border-color: white;
 }
+
+/* Button Hover */
 a.pw_btn:hover {
     background-color: grey;
     border-color: black;
     color: white;
 }
 
-
-
 /* Projects */
+/* Container to hold project cards */
 .project_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* Individual project card */
 .project {
     display: block;
     text-align: center;
@@ -145,21 +169,28 @@ a.pw_btn:hover {
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
 }
-.project a {
+
+/* Button element spacing */
+.project 
+a {
     text-decoration: none;
     margin: 10px;
     width: 300px;
 }
+
+/* Button text */
 a.p_btn {
     color: white;
     border-color: white;
 }
 
+/* Button text hover */
 a.p_btn:hover {
     border:#212529;
 }
 
 /* Form */
+/* Container to hold form */
 .form_container {
     color: white;
     background-color: #212529;
@@ -174,12 +205,14 @@ a.p_btn:hover {
 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
 }
+
+/* Form itself */
 form {
     align-items: center;
     width:95%
 }
 
-/* Contact Form */
+/* button on form */
 form 
 .btn{
     color: white;
@@ -187,6 +220,7 @@ form
     background-color: #212529;
 }
 
+/* button on form hover */
 form 
 .btn:hover {
     border-color: white;
